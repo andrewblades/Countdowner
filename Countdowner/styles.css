@@ -1,0 +1,119 @@
+/* body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(113, 191, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.container{
+ 
+
+ align-items: center;
+ background-color: rgb(255, 0, 0);
+ background-image: url('./davthecounter.jpg');
+ background-size: cover;
+ background-position: center center;
+ min-height: 408px;
+ min-width: 612px;
+ max-width: 612px;
+ margin-top: 200px;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.info{
+  display:flex;
+  margin-top: 10%;
+  padding-left: 10%;
+
+}
+.line{
+: 1 solid black;
+}
+.title{
+
+ font-size: 40px;
+ color: rgb(250, 233, 233);
+ padding-left:10%;
+ padding-top: 10%;
+}
+.nrInfo{
+  color:rgb(253, 253, 253);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.image{
+
+} */
+
+body{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   min-height: 100vh;
+   font-family:'Courier New', Courier, monospace,sans-serif;
+   background-color: #cbe7ff;
+}
+
+
+
+
+
+.container{
+    width: 1200px;
+    height: 600px;
+    background-color: #f2f7fb;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#image{
+    max-width: 450px;
+    max-height: 600px;
+ }
+
+.title{
+    
+    display:flex;
+    grid-column: 2/4;
+    grid-row: 1/4;
+    justify-content: start;
+    align-items:center;
+    margin-top: 10rem;
+    margin-bottom: 30rem;
+    margin-left: 2.5rem;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+}
+
+ .info{
+  display:flex;
+  grid-column: 2/4;
+  grid-row:2/4;
+  justify-content:center;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+.nrInfo{
+    font-size: 2rem;
+}
+
+.wroteInfo{
+    letter-spacing: 0.5rem;
+    margin-bottom: 10rem;
+}
